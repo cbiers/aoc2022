@@ -35,8 +35,7 @@ class Monkey:
 
 monkeys = [Monkey([54, 98, 50, 94, 69, 62, 53, 85], "*", 13, 3, 2, 1), Monkey([71, 55, 82], "+", 2, 13, 7, 2), Monkey([77, 73, 86, 72, 87], "+", 8, 19, 4, 7), Monkey([97, 91], "+", 1, 17, 6, 5), Monkey([78, 97, 51, 85, 66, 63, 62], "*", 17, 5, 6, 3), Monkey([88], "+", 3, 7, 1, 0), Monkey([87, 57, 63, 86, 87, 53], "square", None, 11, 5, 0), Monkey([73, 59, 82, 65], "+", 6, 2, 4, 3)]
 
-for i in range(10000):
-    print i
+for i in range(10000)
     for monkey in monkeys:
         monkey.worryLevels()
         for item in monkey.items:
