@@ -1,6 +1,3 @@
-f = open("input.txt", "r")
-lines = f.readlines()
-
 import json
 
 def inOrder(l1, l2):
